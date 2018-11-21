@@ -34,8 +34,7 @@ for (var i = 0; i < 7; i++) {
 }
 console.log(list);
 ```
-
-![]()
+![List](https://github.com/ilavisharma/singlyLinkedList/blob/master/assets/images/list.PNG)
 
 ### Traversing
 Once the linked list has been created, its nodes can be retrieved by just processing the starting node, then referening to the next node and repeating the process **recursively**.
@@ -54,7 +53,7 @@ Node.prototype.visit = function () {
     }
 }
 ```
-![]()
+![List](https://github.com/ilavisharma/singlyLinkedList/blob/master/assets/images/list_traverse.PNG)
 
 ### Insertion of new node
 If the first node is null then it becomes the starting node.
@@ -78,7 +77,7 @@ Node.prototype.addNode = function (n) {
     }
 };
 ```
-![]()
+![List](https://github.com/ilavisharma/singlyLinkedList/blob/master/assets/images/list_insert.PNG)
 ### Deletion
 In case of deletion two situations arise which are
 1. If the node to be deleted is the start node or the **fisrt node**
@@ -90,6 +89,7 @@ In case of deletion two situations arise which are
         }
     }
     ```
+![List](https://github.com/ilavisharma/singlyLinkedList/blob/master/assets/images/list_delete_start.PNG)
 2. If the node to be deleted is in between somewhere
    ```javascript
    LinkedList.prototype.delete = function (value) {
@@ -109,4 +109,4 @@ In case of deletion two situations arise which are
             this.next.delete(value);
         }
     }
-![]()
+![List](https://github.com/ilavisharma/singlyLinkedList/blob/master/assets/images/list_delete.PNG)
