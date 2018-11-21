@@ -28,7 +28,7 @@ function Node(data) {
 creating a new Linked List
 ```javascript
 var list = new LinkedList();
-// populating  the trees wit random values
+// populating  the list witt random values
 for (var i = 0; i < 7; i++) {
     list.add(Math.floor(Math.random() * 100));
 }
